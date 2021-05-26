@@ -1,0 +1,21 @@
+.Web {
+  color: rgb(9, 114, 211);
+  text-decoration: none;
+}
+.Studio {
+  color: black;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: blue;
+}
+.Button1 {
+  color: black;
+}
+.Button:hover {
+  border: 1px solid blue;
+}
