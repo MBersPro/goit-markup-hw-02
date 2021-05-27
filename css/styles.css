@@ -1,0 +1,88 @@
+li {
+  list-style-type: none;
+}
+.mainpage-header a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.nav1 {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.nav1 a:hover {
+  color: #2196f3;
+}
+
+#nav1-studio {
+  color: #2196f3;
+}
+
+.info1 {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  top: 32px;
+  left: 1078px;
+  font-weight: 500px;
+  font-size: 14px;
+  letter-spacing: 0, 02em;
+}
+.info1 a:hover {
+  color: #2196f3;
+}
+.info2 {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0, 02em;
+}
+.info2 a:hover {
+  color: #2196f3;
+}
+.button1 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.effective-solutions {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+}
