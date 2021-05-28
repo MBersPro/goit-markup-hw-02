@@ -1,3 +1,7 @@
+body {
+  max-width: 1600px;
+  max-height: 2349px;
+}
 li {
   list-style-type: none;
 }
@@ -52,6 +56,7 @@ li {
   font-weight: 500px;
   font-size: 14px;
   letter-spacing: 0, 02em;
+  font-family: "Roboto", sans-serif;
 }
 .info1 a:hover {
   color: #2196f3;
@@ -66,23 +71,31 @@ li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0, 02em;
+  font-family: "Roboto", sans-serif;
 }
 .info2 a:hover {
   color: #2196f3;
+}
+.effective-solutions {
+  position: absolute;
+  width: 1600px;
+  height: 620px;
+  left: 0px;
+  top: 80px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  background-color: #2f303a;
+  color: white;
+  background-size: cover;
+  padding: 200px 452px 280px 452px;
+
+  /* margin: 200px 452px 280px 452px; */
 }
 .button1 {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-}
-.effective-solutions {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
 }
