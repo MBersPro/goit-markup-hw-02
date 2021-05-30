@@ -35,28 +35,86 @@ li {
   color: #2196f3;
 }
 
-.nav1 {
+#nav1-studio-blue {
   position: absolute;
-  width: 294px;
+  width: 49px;
   height: 16px;
   left: 453px;
   top: 32px;
-  display: flex;
-  justify-content: space-between;
-  justify-content: space-around;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  letter-spacing: 0.02em;
-}
-.nav1 a:hover {
+  line-height: 16px;
+  letter-spacing: 0.02px;
   color: #2196f3;
 }
-
 #nav1-studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #212121;
+}
+#nav1-studio:hover {
   color: #2196f3;
 }
 
+#nav1-portfolio-blue {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #2196f3;
+}
+
+#nav1-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #212121;
+}
+#nav1-portfolio:hover {
+  color: #2196f3;
+}
+
+#nav1-contacts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #212121;
+}
+#nav1-contacts:hover {
+  color: #2196f3;
+}
 .info1 {
   position: absolute;
   width: 135px;
@@ -68,9 +126,13 @@ li {
   letter-spacing: 0, 02em;
   font-family: "Roboto", sans-serif;
 }
+.info1 a {
+  color: #757575;
+}
 .info1 a:hover {
   color: #2196f3;
 }
+
 .info2 {
   position: absolute;
   width: 122px;
@@ -83,9 +145,13 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
+.info2 a {
+  color: #757575;
+}
 .info2 a:hover {
   color: #2196f3;
 }
+
 .effective-solutions {
   position: absolute;
   width: 696px;
@@ -228,21 +294,21 @@ li {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.what-img1 {
+#what-img1 {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1061px;
 }
-.what-img2 {
+#what-img2 {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 1061px;
 }
-.what-img3 {
+#what-img3 {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -360,9 +426,6 @@ address a {
   color: rgba(255, 255, 255, 0.6);
 }
 /* Portfoliopage.html */
-#nav1-portfolio {
-  color: #2196f3;
-}
 li {
   list-style-type: none;
 }
