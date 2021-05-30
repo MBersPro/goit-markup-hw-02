@@ -63,7 +63,8 @@ li {
   letter-spacing: 0.02px;
   color: #212121;
 }
-#nav1-studio:hover {
+#nav1-studio:hover,
+#nav1-studio:focus {
   color: #2196f3;
 }
 
@@ -94,7 +95,8 @@ li {
   letter-spacing: 0.02px;
   color: #212121;
 }
-#nav1-portfolio:hover {
+#nav1-portfolio:hover,
+#nav1-portfolio:focus {
   color: #2196f3;
 }
 
@@ -112,7 +114,8 @@ li {
   letter-spacing: 0.02px;
   color: #212121;
 }
-#nav1-contacts:hover {
+#nav1-contacts:hover,
+#nav1-contacts:focus {
   color: #2196f3;
 }
 .info1 {
@@ -129,7 +132,8 @@ li {
 .info1 a {
   color: #757575;
 }
-.info1 a:hover {
+.info1 a:hover,
+.info1 a:focus {
   color: #2196f3;
 }
 
@@ -148,7 +152,7 @@ li {
 .info2 a {
   color: #757575;
 }
-.info2 a:hover {
+.info2 a:hover .info2 a:focus {
   color: #2196f3;
 }
 
@@ -438,9 +442,13 @@ li {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
-.button-portfolio1:hover {
+.button-portfolio1:hover,
+.button-portfolio1:focus {
   background: #2196f3;
+  color: white;
 }
 .button-portfolio2 {
   position: absolute;
@@ -451,9 +459,13 @@ li {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
-.button-portfolio2:hover {
+.button-portfolio2:hover,
+.button-portfolio2:focus {
   background: #2196f3;
+  color: white;
 }
 .button-portfolio3 {
   position: absolute;
@@ -464,9 +476,13 @@ li {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
-.button-portfolio3:hover {
+.button-portfolio3:hover,
+.button-portfolio3:focus {
   background: #2196f3;
+  color: white;
 }
 .button-portfolio4 {
   position: absolute;
@@ -477,9 +493,13 @@ li {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
-.button-portfolio4:hover {
+.button-portfolio4:hover,
+.button-portfolio4:focus {
   background: #2196f3;
+  color: white;
 }
 .button-portfolio5 {
   position: absolute;
@@ -490,9 +510,13 @@ li {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
-.button-portfolio5:hover {
+.button-portfolio5:hover,
+.button-portfolio5:focus {
   background: #2196f3;
+  color: white;
 }
 .techno_quack {
   position: absolute;
@@ -633,8 +657,7 @@ li {
 .footer-portfolio a {
   text-decoration: none;
 }
-.logo-web2 {
-}
+
 .logo-portfolio {
   position: absolute;
   width: 145px;
